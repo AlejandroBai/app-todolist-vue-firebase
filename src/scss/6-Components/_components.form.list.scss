@@ -1,0 +1,102 @@
+.row:nth-child(2) {
+  margin-top: 100px;
+
+  .input-group {
+    .form-control {
+      border-radius: 50px;
+      border: none;
+    }
+    .btn.btn-default {
+      border: solid 1px $gris;
+      background-color: transparent;
+      border-radius: 50px;
+      outline: none;
+      margin-left: 20px;
+      color: $gris;
+
+      &:hover {
+        background-color: $gris;
+        color: $vue;
+        cursor: pointer;
+      }
+
+      &:active, &:focus {
+        outline: none;
+        box-shadow: 0 0 0 0px;
+      }
+    }
+  }
+
+  .list-group-item {
+    border: none;
+    border-radius: 0px;
+  }
+
+  .list-group {
+    margin-top: 40px;
+
+    .list-group-item {
+      margin-bottom: 10px;
+    }
+
+    .lead {
+      min-width: 100%;
+      text-align: left;
+    }
+
+    .btn-xs {
+      border-radius: 0px;
+      border: none;
+      color: black;
+      width: 50px;
+      height: 50px;
+      padding: 0px;
+      margin-left: 15px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:active, &:focus {
+        outline: none;
+        box-shadow: 0 0 0 0px;
+      }
+
+      i {
+        font-size: $font-size*2;
+      }
+    }
+    .btn-default {
+      background: $gris;
+
+      &:hover {
+        background: $gris3;
+        color: $gris;
+      }
+    }
+    .btn-primary {
+      background: $verde;
+
+      &:hover {
+        background: $verde2;
+        color: $gris;
+      }
+    }
+    .btn-secondary {
+      background: $azul;
+
+      &:hover {
+        background: $azul2;
+        color: $gris;
+      }
+    }
+    .btn-danger {
+      background: $rojo;
+
+      &:hover {
+        background: $rojo2;
+        color: $gris;
+      }
+    }
+  }
+}

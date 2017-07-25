@@ -1,0 +1,32 @@
+{
+  "name": "frontend-workflow-gulp",
+  "description": "Entorno de Desarrollo Frontend con Gulp",
+  "main": "index.html",
+  "authors": [
+    "Alejandro Bayo Saiz"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "frontend",
+    "gulp",
+    "workflow",
+    "bai"
+  ],
+  "homepage": "https://github.com/AlejandroBai/bai-frontend-workflow-gulp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "tether": "^1.4.0"
+  }
+}

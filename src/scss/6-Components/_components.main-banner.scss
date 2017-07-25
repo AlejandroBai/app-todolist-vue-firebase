@@ -1,0 +1,17 @@
+section.main-banner {
+  min-height: 100vh;
+  background-color: $vue;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  text-align: center;
+  flex-wrap: wrap;
+
+  h1 {
+    margin-top: 100px;
+    font-weight: 100;
+    color: $gris;
+    letter-spacing: $font-size/2;
+    font-size: $font-size*2;
+  }
+}
